@@ -1,4 +1,6 @@
 #pragma once
+#ifndef __COMPENSATOR_H__
+#define __COMPENSATOR_H__
 
 #define Lead 0
 #define Lag 1
@@ -44,3 +46,4 @@ public:
 	double update(double ek);
 };
 
+#endif
